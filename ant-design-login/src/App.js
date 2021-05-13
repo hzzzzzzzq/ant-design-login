@@ -262,8 +262,8 @@ class App extends Component {
                         message: '手机号是必填项!',
                       },
                       {
-                        // validator: this.handleWithVerifyMobile,
-                        // message: '不合法的手机号!',
+                        validator: this.handleWithVerifyMobile,
+                        message: '不合法的手机号!',
                       },
                     ]}
                   >
